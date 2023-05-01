@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table{
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+       th, tr,td{
+            width: 60px;
+            height:100px;
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="size:40px;text-align: center;">
+        HTML colspan Attribute
+    </h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Expense</th>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>$10</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>$8</td>
+        </tr>
+        <tr>
+            <td colspan="2">Sum:$18</td>
+        </tr>
+
+    </table>
+    
+    <h1 style="text-align: center;">HTML rowspan Attribute</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th rowspan="3">GeeksforGeeks</th>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>25</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>

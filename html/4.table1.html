@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>ass3</title>
+    <style>
+        table{
+            height:500px;
+            width:100%;
+            border-collapse:collapse ;
+
+        }
+    th,
+        td {
+            border: 1px solid black;
+            width: 60px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <colgroup>
+            <col span="2" style="background-color: #310ecb">
+        </colgroup>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>Name</th>
+            <th colspan="2">Orders</th>
+        </tr>
+        <tr>
+            <td rowspan="3"> Id1</td>
+            <td rowspan="3">Name1</td>
+            <th>OrderId</th>
+            <th>Size</th>
+
+        </tr>
+        <tr>
+            <td>
+                o1
+            </td>
+            <td>
+                34
+            </td>
+        </tr>
+        <tr><td>o2</td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Id2</td>
+            <td rowspan="3">Name2</td>
+            <th>OrderId</th>
+            <th>Size</th>
+
+        </tr>
+        <tr>
+            <td>o3</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>o2</td>
+            <td>3</td>
+        </tr>
+
+        </tr>
+    </table>
+</body>
+
+</html>
